@@ -88,7 +88,7 @@ a span:hover {
 }
 
 .practice img {
-  width: 80%;
+  width: 90%;
   height: 50%;
   margin-top: 52px;
   margin-left: 24px;
@@ -111,6 +111,7 @@ a span:hover {
   width: 40%;
   margin-top: 52px;
   }
+
   .three {
   background-color: #424242;
   padding-bottom: 32px;
@@ -134,8 +135,18 @@ a span:hover {
   opacity: 0.80;
 }
 
+.space {
+  display: inline-block;
+  width: 40%;
+  height: auto;
+}
+
 /* THIRD SECTION */
 
+.third {
+  background-color: lightgray;
+  border: solid lightgray;
+}
 .third h1 {
   font-size: 36px;
   font-weight: bold;
@@ -144,17 +155,69 @@ a span:hover {
   margin-bottom: 32px;
 }
 
-.third {
-  display: flex;
-  flex-direction: column;
+.third img {
+  box-shadow: 5px 5px #5A5353;
+  display: inline-block;
+  height: auto;
+  width: 30%;
+  margin-left: 30px;
+  margin-bottom: 16px;
 
 }
 
-.pics img {
-  display: inline-block;
-  width: 30%;
+/* FOURTH SECTION */
+
+.fourth {
+ display: flex;
+ flex-direction: column;
+
+}
+
+.fourth h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.video img {
+  width: 20%;
   height: auto;
-  margin-left: 30px;
-  margin-bottom: 16px;
+  padding-bottom: 201px;
+  padding-top: 0;
+}
+
+.video video {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.video h1 {
+  text-align: left;
+  padding-left: 22px;
+}
+
+.bottom footer {
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-bottom: 80px;
+  border-top: solid lightgray;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.right  {
+  text-align: right;
+  margin-right: 20px;
+  padding-top: 20px;
+
+}
+
+.fancy {
+  font-family: 'Blacktail Regular', serif;
+  font-size: 30px;
+  opacity: 0.6;
+  text-decoration: overline;
 
 }
