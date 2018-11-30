@@ -17,6 +17,7 @@ body {
   padding-top: 24px;
   padding-left: 5px;
   font-size: 20px;
+
 }
 
 #logo img {
@@ -28,19 +29,22 @@ body {
 
 .bold {
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .gray {
   color: gray;
+  letter-spacing: 5px;
 }
 
 .nav {
-  padding-left: 900px;
+  margin-left: 900px;
   font-size: 18px;
   color: black;
-  text-decoration:inherit;
+  text-decoration: inherit;
 }
-a span:hover {
+
+ .nav:hover {
   color: lightgray;
 }
 
@@ -85,6 +89,7 @@ a span:hover {
 .second {
   display: flex;
   flex-direction: row;
+  background-color: #424242;
 }
 
 .practice img {
@@ -198,6 +203,8 @@ a span:hover {
   padding-left: 22px;
 }
 
+/*BOTTOM SECTION*/
+
 .bottom footer {
   padding-top: 16px;
   padding-left: 24px;
@@ -207,11 +214,14 @@ a span:hover {
   margin-right: 20px;
 }
 
+/* SOCIAL MEDIA SECTION */
+
 .right  {
   text-align: right;
   margin-right: 20px;
-  padding-top: 20px;
-
+  margin-left: 60%;
+  padding-right: 18px;
+  letter-spacing: 7px;
 }
 
 .fancy {
