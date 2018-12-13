@@ -281,8 +281,26 @@ body {
     margin-left: auto;
 
   }
+}
 
+/* MEDIA QUERY FIRST BANNER SECTION */
 
+@media only screen and (max-width: 450px) {
 
+  .first img {
+    width: 100%;
+    margin: 42px 0;
+  }
 
+  .learn h1 {
+    font-size: 26px;
+    margin-left: -370px;
+    margin-top: 230px;
+    color: white;
+    opacity: 0.70;
+  }
+
+  .start {
+    display: none;
+  }
 }
